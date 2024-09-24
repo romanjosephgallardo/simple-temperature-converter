@@ -11,11 +11,11 @@ conversion_type = int(input(f"Conversion Type --- \n"
 #  Computation for Celsius to Fahrenheit
 if conversion_type == 1:
     celsius_to_fahrenheit = (temperature * 9/5) + 32
-    print(f"Temperature in Celsius: {temperature}C°\n")
-    print(f"Temperature to Fahrenheit: {celsius_to_fahrenheit}F°")
+    print(f"Temperature in Celsius: {temperature}C°")
+    print(f"Temperature to Fahrenheit: {celsius_to_fahrenheit:.3g}F°")
 
 #  Computation for Fahrenheit to Celsius
 if conversion_type == 2:
     celsius_to_fahrenheit = (temperature - 32) * 5/9
-    print(f"Temperature in Fahrenheit: {temperature}F°\n")
-    print(f"Temperature to Celsius: {celsius_to_fahrenheit}C°")
+    print(f"Temperature in Fahrenheit: {temperature}F°")
+    print(f"Temperature to Celsius: {celsius_to_fahrenheit:.3g}C°")
