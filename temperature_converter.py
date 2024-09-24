@@ -15,7 +15,10 @@ if conversion_type == 1:
     print(f"Temperature to Fahrenheit: {celsius_to_fahrenheit:.3g}F°")
 
 #  Computation for Fahrenheit to Celsius
-if conversion_type == 2:
+elif conversion_type == 2:
     celsius_to_fahrenheit = (temperature - 32) * 5/9
     print(f"Temperature in Fahrenheit: {temperature}F°")
     print(f"Temperature to Celsius: {celsius_to_fahrenheit:.3g}C°")
+    
+else:
+    print("Invalid Conversion Type")
